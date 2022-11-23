@@ -2,7 +2,7 @@ import axios from "axios";
 
 const axiosClient = axios.create(
     {
-        baseURL: 'http://localhost:8000/api',
+        baseURL: 'https://front65mas.herokuapp.com/api',
         // baseURL: 'https://backsistemascreening.herokuapp.com/api'
     }
 )
