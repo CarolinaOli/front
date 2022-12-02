@@ -1,11 +1,8 @@
 import axios from "axios";
-axios.defaults.headers.post['Content-Type'] = 'aplication/json;charset=UTF-8'
-axios.defaults.withCredentials = true
 
 const axiosClient = axios.create(
     {
-        baseURL: 'https://back2-eight.vercel.app:8000/api',
-        timeout: 50000000000
+        baseURL: 'https://back2-eight.vercel.app/api',
         // baseURL: 'https://backsistemascreening.herokuapp.com/api'
     }
 )
